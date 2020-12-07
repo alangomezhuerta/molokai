@@ -1,11 +1,13 @@
 " Vim color file
 "
-" Author: Tomas Restrepo <tomas@winterdom.com>
+" Author: Based on the work from Tomas Restrepo <tomas@winterdom.com>
 " https://github.com/tomasr/molokai
 "
 " Note: Based on the Monokai theme for TextMate
 " by Wimer Hazenberg and its darker variant
 " by Hamish Stuart Macpherson
+"
+" Note: Updated by Alan Gomez to mantain a full black background
 "
 
 hi clear
@@ -18,7 +20,7 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name="molokai"
+let g:colors_name="molokai-dark"
 
 if exists("g:molokai_original")
     let s:molokai_original = g:molokai_original
